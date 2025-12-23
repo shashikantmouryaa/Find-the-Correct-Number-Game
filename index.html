@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Correct Number Game</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="sub-div">
+            <h2>Find the Correct Number Game</h2>
+            <p style="color: aliceblue;">You have only 5 chances to win!</p>
+            <input class="input" type="number" id="num" placeholder="Enter number (0–9)">
+            <button onclick="checkNumber()" class="boton-elegante" id="checkBtn">Check</button>
+            <button onclick="playAgain()" class="boton-elegante" id="playAgainBtn" style="display:none;">Play Again</button>
+            <p id="atm" style="color: red; font-size: 20px; font-weight: bold;"></p>
+            <p id="atmMsg" style="color: rgb(114, 215, 80); font-size: 20px; font-weight: bold;"></p>
+
+            <div id="output" style="color: rgb(114, 215, 80); font-size: 20px; font-weight: bold;"></div>
+        </div>
+
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>
